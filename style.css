@@ -15,3 +15,7 @@ body {
 	margin: 0;
 	font-family: "Oxygen", sans-serif;
 }
+
+.top {
+	display: flex;
+}
