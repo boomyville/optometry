@@ -16,6 +16,13 @@ body {
 	font-family: "Oxygen", sans-serif;
 }
 
+@media (max-width: 600px) {
+  .top {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
 .top, .top-left, .top-middle, .top-right {
 	display: flex;
 }
