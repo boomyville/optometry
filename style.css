@@ -20,16 +20,8 @@ body {
 	display: flex;
 }
 
-.top-left {
-	justify-content: flex-start;
-}
-
-.top-middle {
-	justify-content: center;
-}
-
-.top-right {
-	justify-content: flex-end;
+.top {
+	justify-content: space-between;
 }
 
 
