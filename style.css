@@ -16,11 +16,21 @@ body {
 	font-family: "Oxygen", sans-serif;
 }
 
-@media (max-width: 600px) {
-  .top {
+@media (max-width: 700px) {
+  .top, .nav .footer {
     flex-direction: column;
     gap: 12px;
   }
+}
+
+.link a {
+	text-decoration: none;
+	color: white;
+}
+
+.top-right a {
+text-decoration: none;
+	color: gray;
 }
 
 .top, .top-left, .top-middle, .top-right {
@@ -31,6 +41,40 @@ body {
 
 .top {
 	justify-content: space-between;
+	padding: 24px;
 }
 
+.nav, .about {
+	display: flex;
+	background: #cc5533;
+	justify-content: space-around;
+	
+}
 
+.link {
+	padding: 12px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.middle {
+  background-image: url("background.png");
+
+}
+
+.middle-box, .about {
+	padding: 60px;
+}
+
+.about {
+flex-direction: column;
+}
+
+.box {
+text-align: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+}
