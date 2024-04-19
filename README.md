@@ -5,4 +5,4 @@ It is designed to be slightly modular (uses different HTML files for different a
 
 It is designed to be editable by a human with some basic HTML knowledge and tinkered for their needs
 
-(Live demo)[https://cwel.com.au]
+[Live Demo](https://cwel.com.au)
